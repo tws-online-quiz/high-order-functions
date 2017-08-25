@@ -11,14 +11,14 @@ function find(collection, ch) {
 }
 
 module.exports = function countSameElements(collection) {
-    let result = [];
-    for (let item of collection) {
-        let obj = find(result, item)
-        if (obj) {
-            obj.count++;
+    return collection.reduce((result, ch) => {
+        let entry = result.find(e => e.key === ch);
+        if (entry) {
+            entry.count++;
         } else {
-            result.push({key: item, count: 1});
+            result.push({key: ch, count: 1});
         }
-    }
-    return result;
+
+        return result;
+    }, []);
 }
