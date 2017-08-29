@@ -1,23 +1,10 @@
-# Javascript 集合操作基础练习
-
-- 1.两个集合比较筛选 - 其中包含4个小练习
-- 2.单个集合内各种元素统计 - 其中包含3个小练习
-- 3.两个集合比较+筛选+统计 - 其中包含4个小练习
-
-### 说明：以上三个大的主题练习需求，在代码库的spec（c测试目录）下的section-1, section-2, section-3中的测试代码中有文字说明。对应的代码实现在main目录下，例如：
-```
-spec/section-1/practice-1-spec.js
-```
-中的测试实现需要写在以下文件中 
-```
-main/section-1/practice-1.js
-```
+# JavaScript 高阶函数应用
+1. 克隆本项目
+1. 重构代码，用 `map, reduce, find, filter, forEach, includes` 等方法重构代码，消除所有的 `for` 语句
 
 ## 参考资料
 
-1. [Javascript基础](http://codefordream.com/courses/js_basic/sections)
-2. [Javascript初级训练营](http://codefordream.com/courses/js_learning_camps/sections)
-3. [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+1. [Array 文档](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 4. [npm 下载安装](https://github.com/npm/npm)
 5. [node 下载安装](https://github.com/creationix/nvm)
 6. [jasmine用法](http://jasmine.github.io/2.4/introduction.html)
