@@ -17,19 +17,13 @@ function split(item) {
     return {key: array[0], count: parseInt(array[1], 10)};
 }
 
-function push(result, key, count) {
-    for (var i = 0; i < count; i++) {
-        result.push(key);
-    }
-}
-
 function expand(collection) {
     return collection.reduce((result, item) => {
         if (item.length === 1) {
             result.push(item);
         } else {
             let {key, count} = split(item);
-            push(result, key, count);
+            result.push(...(Array(count).fill(key)));
         }
         return result;
     }, []);
