@@ -41,12 +41,6 @@ function split(item) {
     }
 }
 
-function push(result, key, count) {
-    for (var i = 0; i < count; i++) {
-        result.push(key);
-    }
-}
-
 function expand(collection) {
     let result = [];
     for (let item of collection) {
@@ -54,7 +48,7 @@ function expand(collection) {
             result.push(item);
         } else {
             let {key, count} = split(item);
-            push(result, key, count);
+            result.push(...(Array(count).fill(key)));
         }
     }
     return result;
