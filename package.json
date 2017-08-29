@@ -1,5 +1,5 @@
 {
-  "name": "gpst-js-basic-collection-practice",
+  "name": "high-order-functions",
   "version": "1.0.0",
   "description": "Powered by ThoughtWorks School",
   "main": "app.js",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tws-stack/gpst-js-basic-collection-practice.git"
+    "url": "git+https://github.com/tws-online-quiz/high-order-functions"
   },
   "author": "ThoughtWorks School",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/tws-stack/gpst-js-basic-collection-practice/issues"
+    "url": "https://github.com/tws-online-quiz/high-order-functions/issues"
   },
   "homepage": "https://school.thoughtworks.cn",
   "devDependencies": {
